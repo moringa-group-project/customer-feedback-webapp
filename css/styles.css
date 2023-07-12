@@ -90,3 +90,9 @@ ul {
     color: darkblue;
 }
 
+#introduction {
+    background: linear-gradient(rgb(27, 111, 144), darkblue);
+    padding: 40px;
+    margin: 15px 0;
+}
+

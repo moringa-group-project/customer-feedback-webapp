@@ -1,3 +1,7 @@
+body {
+    font-style: normal;
+    background: 
+}
 #container {
     width: 1050px;
     /*border: 1px solid grey;*/
@@ -35,6 +39,7 @@ h1 a{
     font-size: 15px;
     color: darkslategray;
     background: white url(images/search.png) right center no-repeat;
+    border: 1px solid darkcyan;
 }
 
 .submit {
@@ -90,7 +95,7 @@ ul {
 }
 
 #introduction {
-    background: linear-gradient(rgb(27, 111, 144), darkblue);
+    background: linear-gradient(rgb(27, 111, 144), green);
     padding: 40px;
     margin: 16px 0;
 }
@@ -159,4 +164,11 @@ ul {
 
 #rightsidebar {
     float: right;
+}
+
+.footer {
+    height: 60px;
+    background: linear-gradient(rgb(70, 168, 114), green);
+    padding: 10px 20px;
+    margin-top: 10px;
 }

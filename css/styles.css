@@ -120,11 +120,20 @@ ul {
     font-size: 30px;
 }
 
+.sidebar ul {
+    padding-top: 8px;
+}
 #leftsidebar ul li {
     padding-bottom: 6px;
     padding-left: 10px;
     list-style-image: url(images/logo.png);
 }
+#rightsidebar ul li {
+        padding-bottom: 7px;
+        padding-left: 30px;
+        background: url(images/tick.png) no-repeat left;
+    }
+
 .sidebar ul li a {
     text-decoration: none;
     font-size: 20px;

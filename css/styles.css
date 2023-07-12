@@ -1,6 +1,5 @@
 body {
-    font-style: normal;
-    background: 
+    background: url(Videos/background.mp4);
 }
 #container {
     width: 1050px;

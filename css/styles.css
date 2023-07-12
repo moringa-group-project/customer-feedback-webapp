@@ -52,3 +52,22 @@ h1 a{
 .clear {
     clear: both;
 }
+#menu {
+    height: 70px;
+    background: skyblue;
+}
+ul {
+    list-style: none;
+
+}
+#menu ul li {
+    float: left;
+    padding: 0 10px;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+

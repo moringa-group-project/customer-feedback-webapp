@@ -83,7 +83,6 @@ ul {
     -ms-transition: font-size 0.5s ease;
     transition: font-size 0.5s ease;
    
-
 }
 #menu ul li a:hover, #menu ul li a.active {
     font-size: 20px;
@@ -96,16 +95,30 @@ ul {
     padding: 40px;
     margin: 16px 0;
 }
+
 #introduction h3 {
     font-size: 40px;
     color: rgb(146, 127, 114);
     font-weight: normal;
 }
+
 #introduction p {
     font-size: 25px;
     color: #808000
-    text-align: justify
-
-    
+    text-align: justify 
 }
 
+.sidebar {
+    height: 500px;
+    width: 400px;
+    border: 1px solid rgb(45, 45, 137);
+    border-radius: 20px;
+}
+
+#leftsidebar {
+    float: left;
+}
+
+#rightsidebar {
+    float: right;
+}

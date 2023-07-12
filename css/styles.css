@@ -78,9 +78,10 @@ ul {
     line-height: 30px;
     -webkit-transition: font-size 0.5s ease;
     -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
     transition: font-size 0.5s ease;
-    transition: font-size 0.5s ease;
-    transition: font-size 0.5s ease;
+   
 
 }
 #menu ul li a:hover, #menu ul li a.active {

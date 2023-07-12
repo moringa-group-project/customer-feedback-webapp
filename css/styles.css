@@ -9,9 +9,6 @@
 }
 #brand {
     float: left;
-
-
-
 }
 
 h1 a{
@@ -39,6 +36,7 @@ h1 a{
     color: darkslategray;
     background: white url(images/search.png) right center no-repeat;
 }
+
 .submit {
     float: right;
     padding: 5px;
@@ -72,6 +70,7 @@ ul {
 #menu ul li:last-child {
     border-right: none;
 }
+
 #menu ul li a{
     text-decoration: none;
     text-transform: uppercase;
@@ -110,9 +109,37 @@ ul {
 
 .sidebar {
     height: 500px;
-    width: 400px;
+    width: 450px;
     border: 1px solid rgb(45, 45, 137);
     border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: green;
+    font-size: 30px;
+}
+
+#leftsidebar ul li {
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/logo.png);
+}
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(72, 151, 80);
+    -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 23px;
+    font-weight: bold;
 }
 
 #leftsidebar {

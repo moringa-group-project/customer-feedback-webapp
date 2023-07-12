@@ -125,12 +125,14 @@ ul {
 }
 #leftsidebar ul li {
     padding-bottom: 6px;
+    padding-top: 7px;
     padding-left: 10px;
     list-style-image: url(images/logo.png);
 }
 #rightsidebar ul li {
-        padding-bottom: 7px;
-        padding-left: 30px;
+        padding-bottom: 10px;
+        padding-top: 14px;
+        padding-left: 40px;
         background: url(images/tick.png) no-repeat left;
     }
 

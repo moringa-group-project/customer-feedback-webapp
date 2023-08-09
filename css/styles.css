@@ -1,6 +1,8 @@
 body {
     background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-2067-1024x683.jpg)
+    
 }
+
 #container {
     width: 1050px;
     /*border: 1px solid grey;*/
@@ -93,25 +95,37 @@ ul {
     color: darkblue;
 }
 
-#introduction {
+#home {
     background: linear-gradient(rgb(27, 111, 144), green);
     padding: 40px;
     margin: 16px 0;
 }
 
-#introduction h3 {
+#home h3 {
     font-size: 40px;
     color: rgb(146, 127, 114);
     font-weight: normal;
 }
 
-#introduction p {
+#home p {
     font-size: 25px;
     color: #808000
     text-align: justify 
 }
 
-.sidebar {
+#home .button {
+    background-color: green
+    color: #fff;
+    font-size: 30px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    float: central
+}
+
+#home .button:hover {
+    background-color:darkgreen
+}
+#about {
     height: 500px;
     width: 450px;
     border: 1px solid rgb(45, 45, 137);
@@ -119,28 +133,28 @@ ul {
     padding: 10px 30px;
 }
 
-.sidebar h3 {
+#about h3 {
     color: green;
     font-size: 30px;
 }
 
-.sidebar ul {
+#about ul {
     padding-top: 8px;
 }
-#leftsidebar ul li {
+.leftsidebar ul li {
     padding-bottom: 6px;
     padding-top: 7px;
     padding-left: 10px;
     list-style-image: url(images/logo.png);
 }
-#rightsidebar ul li {
+.rightsidebar ul li {
         padding-bottom: 10px;
         padding-top: 14px;
         padding-left: 40px;
         background: url(images/tick.png) no-repeat left;
     }
 
-.sidebar ul li a {
+#about ul li a {
     text-decoration: none;
     font-size: 20px;
     color: rgb(72, 151, 80);
@@ -150,18 +164,18 @@ ul {
     -ms-transition: font-size 0.5s ease;
     transition: font-size 0.5s ease;
 }
-.sidebar ul li a:hover, .sidebar ul li a.active {
+#about ul li a:hover, #about ul li a.active {
     text-decoration: none;
     color: darkgreen;
     font-size: 23px;
     font-weight: bold;
 }
 
-#leftsidebar {
+.leftsidebar {
     float: left;
 }
 
-#rightsidebar {
+.rightsidebar {
     float: right;
 }
 
@@ -170,4 +184,20 @@ ul {
     background: linear-gradient(rgb(70, 168, 114), green);
     padding: 10px 20px;
     margin-top: 10px;
+}
+
+#feedback h3 {
+    font-size: 30px;
+    color: rgb(146, 127, 114);
+    font-weight: normal;
+    text-align: center;
+}
+
+#feedback p {
+    font-size: 25px;
+    color: #808000
+    text-align: justify 
+}
+#feedback {
+    background: cadetblue;
 }

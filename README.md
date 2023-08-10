@@ -11,7 +11,7 @@ Customers owned by the organisation include:
 - Safaricom and m-pesa dealers and agents
 - Corporate customers
 - Fibre to the home, Fibre to the business, LTE 
-
+ 
 ## Setup instructions - includes any scripts that need to be run if necessary.
 
 - clone project from github - https://github.com/moringa-group-project/customer-feedback-webapp.git or downloading a ZIP file of the code.

@@ -2,7 +2,7 @@ name: Customer Feedback Page CI/CD
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   deploy: 

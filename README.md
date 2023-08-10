@@ -3,6 +3,7 @@ Customer feedback portal
 
 ## Project Description.
 
+
 This is a web based application that allows customers to give feedbaack on a range of services provided by Safaricom PLC. Safaricom PLC is a telecommunication company boosting with over 22 million customers who enjoys a range products and services provided by the organisation. Customer can give feedback on services ranging from fuliza, m-pesa app, safaricom app, hakikisha, hustler fund, mshwari, kcb-mpesa and others. Customer is key and they are the centre of every organisation's success. It is paramount that customers enjoy a range of given services provided by the service provider and where services cause disatifaction we use customers feedback to improve on our offerings wich inturn promote good netpromoter score, reduces churn and increases profitability.
 Customers owned by the organisation include:
 

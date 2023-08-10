@@ -1,5 +1,5 @@
 ## Project Name
-Customer feedback portal
+Customer feedback portal.
 
 ## Project Description.
 
